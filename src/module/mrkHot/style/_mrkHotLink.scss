@@ -1,0 +1,252 @@
+#marketHot-tabbar {
+	height:35px;
+	color:$color-bg-text;
+	font-size:$font-size-7;
+}
+
+.tabbar-item {
+	line-height: 35px;
+	height: 35px;
+
+	&.active {
+		color: $color-bg-up;
+		border-bottom-color: $color-bg-up;
+	}
+}
+
+.tabbar {
+	border-bottom: 1px solid $color-cutline-1px-cutoff;
+}
+
+.tabbar-indicator {
+	background-color: $color-bg-up;
+}
+
+
+*[class^="col-"] {
+  	position: relative;
+  	float: left;
+  	min-height: 1px;
+  	padding-left: 0;
+  	padding-right: 0;
+}
+
+.text-left {
+  	text-align: left;
+}
+
+.text-right {
+  	text-align: right;
+}
+
+.text-center {
+  	text-align: center;
+}
+
+.col-my-1 {
+  	width: 25%;
+}
+
+.col-my-2 {
+  	width: 10%;
+}
+
+.col-my-3 {
+  	width: 33.3%;
+}
+
+.col-my-4 {
+  	width: 40%;
+}
+
+.hide {
+  	display: none!important;
+}
+
+#zjlx-title {
+	color:$color-bg-assistant-text;
+	font-size:$font-size-5;
+	height:25px;
+	line-height: 25px;
+	background-color: $color-bg-grounding;
+	border-bottom: 1px solid $color-cutline-1px-cutoff;
+	padding: 0 2.5%;
+	position: fixed;
+    right: 0;
+    left: 0;
+    top: 79px;
+    z-index: 1030;
+}
+.zjlx-row {
+	height: 35px;
+	line-height: 35px;
+	color: $color-bg-text;
+	font-size: $font-size-9;
+	padding: 0 2.5%;
+	border-bottom: 1px solid $color-cutline-1px-cutoff;
+	background-color: $color-bg-nav-text;
+
+
+	.cell {
+		padding: 0 0;
+	}
+
+	.circle {
+	  	width: 16px;
+	  	height: 16px;
+	  	background: $color-6c6-bg;
+	  	border-radius: 200px;
+	  	color: $color-bg-nav-text;
+	  	padding: 0 2px;
+	  	line-height: 16px;
+	  	font-size: $font-size-2;
+	  	font-weight: bolder;
+	}
+
+}
+
+.content {
+	padding-top: 104px;
+}
+
+
+.fold {
+	height: 25px;
+
+	>span+span {
+		font-size: $font-size-5;
+		color: $color-bg-up;
+	}
+
+	& + .fold {
+		border-bottom: 1px solid $color-cutline-1px-cutoff;
+
+		>span+span {
+			font-size: $font-size-5;
+			color: $color-bg-up;
+		}
+	}
+
+	span {
+		width: 33.3%;
+		position: relative;
+		float: left;
+		min-height: 1px;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: $color-f9f9-bg;
+		font-size: $font-size-5;
+		color: $color-bg-text;
+		text-align: center;
+		line-height: 25px;
+	}
+
+}
+
+.navInfo {
+	background-color: $color-bg-up;
+}
+
+
+*[id^="pro1"] {
+	.progressbar-indicator {
+		background-color: $color-ebeb-bg;
+	}
+}
+
+*[id^="pro1"] {
+	background-color: $color-1dd-bg;
+}
+
+*[id^="pro2"] {
+	.progressbar-indicator {
+		background-color: $color-ff3-bg;
+	}
+}
+
+#text {
+	font-size: $font-size-1;
+	color: $color-bg-up;
+	line-height: 18px;
+}
+
+*[id^="hideB"] {
+	border-bottom: 1px solid $color-cutline-1px-cutoff;
+}
+
+.slideup {
+	z-index: 4000;
+}
+.mask {
+	z-index: 3000;
+}
+
+
+.mrk {
+	.navbar {
+		z-index: 9999;
+	}
+
+	.select {
+	    /*position: relative;*/
+	    display: inline-block;
+	    width: 100%;
+	    font-size: $font-size-20;
+	    margin-left: 5%;
+	}
+
+	.my-modal-backdrop {
+	    position: fixed;
+	    top: 44px;
+	    width: 100%;
+	    height: 100%;
+	    background-color: $color-bg-text;
+	    opacity: 0.4;
+	    z-index: 9999;
+	}
+
+	.my-modal {
+	    position: fixed;
+	    top: 44px;
+	    width: 100%;
+	    height: 100%;
+	    z-index: 9999;
+	}
+
+
+	.my-modal-dialog {
+	    position: fixed;
+	    width: 100%;
+	    background-color: $color-bg-nav-text;
+	    border-radius: 5px;
+	    opacity: 1.0;
+	    font-size: $font-size-3;
+	    z-index: 9999;
+	}
+
+	ul {
+	    list-style: none;
+	    padding: 0 0;
+	    margin-bottom: 0;
+
+	    li {
+		    text-align: center;
+		    color: $color-bg-text;
+		    height: 40px;
+		    line-height: 40px;
+		    border-bottom: 1px solid $color-cutline-1px-cutoff;
+		}
+
+		.active {
+		    color: $color-2121-bg;
+		}
+	}
+
+  .progressbar
+  {
+    border-radius:0px;
+  }
+
+}
+
+

@@ -1,0 +1,98 @@
+  .user-info {
+    .avatar {
+      .navbar-footer {
+        .message {
+          img {
+            height: 4px;
+          }
+        }
+      }
+    }
+  }
+  .avatar {
+    .body {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .avatar-container {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        img {
+          width: 100%;
+      }
+    }
+    .slideup {
+        background-color: $color-bg-detail1;
+    }
+    .slideup-body {
+      div {
+          border-bottom: 1px solid $color-cutline-1px-cutoff;
+          height: 41px;
+          line-height: 40px;
+          font-size: $font-size-9;
+          text-align: center;
+          color: $color-slidebody-avatar;
+          background-color: $color-bg-nav-text;
+          &:last-child {
+            margin-top: 5px;
+            border-top: 1px solid $color-cutline-1px-cutoff;
+            border-bottom: none;
+        }
+      }
+      .file-input {
+          position: relative;
+          input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+      }
+    }
+    .cropper-page {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: $color-copper-page-avatar;
+      overflow: hidden;
+      z-index: 1040;
+      .cropper-bottom {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 1rem;
+        font-size: $font-size-9;
+        color: $color-text-nav-text;
+        span {
+          &:first-child {
+            float: left;
+          }
+          &:last-child {
+            float: right;
+          }
+        }
+      }
+    }
+    .cropper-img {
+      position: absolute;
+      z-index: -1;
+    }
+    .cropper-cover {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+  }

@@ -1,0 +1,14 @@
+.hyzx {
+	.scroll {
+	    position: fixed;
+	    left: 0;
+	    right: 0;
+	    top: 44px;
+	    z-index: 5;
+	    border-bottom: 1px solid $color-cutline-1px-cutoff;
+	}
+
+	#info-list {
+		margin-top: 75px;
+	}
+}

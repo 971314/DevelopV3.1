@@ -1,0 +1,70 @@
+  .risk {
+    padding-top: 44px;
+    .navbar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      font-size: $font-size-3;
+      color: $color-text-nav-text;
+      background-color: $color-bg-up;
+      z-index: 1030;
+    }
+    .navbar-header,.navbar-footer {
+      -webkit-box-flex: .4;
+        -ms-flex: .4;
+        flex: .4;
+    }
+    .navbar-header {
+        padding-right: 0;
+        a {
+          display: block;
+          float: left;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          height: 23px;
+          line-height: 21px;
+      }
+      .back {
+          margin-right: 15px;
+          img {
+            height: 18px;
+        }
+      }
+      .search {
+        img {
+          height: 17px;
+        }
+      }
+    }
+    .navbar-body {
+      position: relative;
+      padding: 0;
+      -webkit-box-flex: 1.2;
+      -ms-flex: 1.2;
+      flex: 1.2;
+      line-height: 42px;
+    }
+    .navbar-footer {
+        padding-left: 0;
+        a {
+          display: block;
+          float: right;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          height: 23px;
+          line-height: 21px;
+      }
+      .service {
+          margin-right: 15px;
+          img {
+            height: 18px;
+        }
+      }
+      .message {
+        img {
+          height: 14px;
+        }
+      }
+    }
+  }

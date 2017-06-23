@@ -1,0 +1,23 @@
+.functional {
+	background: $color-bg-nav-text;
+  	width: 33.3%;
+  	display: inline-block;
+  	height: 89px;
+  	padding: 1.3rem 0;
+  	font-size: $font-size-7;
+  	color: black;
+
+  	img {
+	    width: 2rem;
+	    height: 2.5rem;
+	    display: block;
+	    margin:0 auto;
+	    margin-bottom: 0.8rem;
+	}
+
+	span{
+	  	display: inline-block;
+	  	width:100%;
+	  	text-align: center;
+	}
+}

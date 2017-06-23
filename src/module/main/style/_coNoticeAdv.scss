@@ -1,0 +1,61 @@
+  .notice {
+    border-bottom: 1px solid $color-cutline-1px-cutoff;
+    background-color: $color-bg-nav-text;
+    border-top: 1px solid $color-cutline-1px-cutoff;
+    padding-right: 10px;
+    height: 37px;
+    line-height: 35px;
+    overflow: hidden;
+    > * {
+      float: left;
+    }
+    .vertical-swipe {
+      position: relative;
+      width: calc(100% - 100px);
+      height: 100%;
+    }
+    div {
+      &:first-child {
+        margin: 9px 0;
+        border-right: 1px solid $color-cutline-1px-cutoff;
+        padding: 0 10px;
+        width: 85px;
+        height: 17px;
+        line-height: 15px;
+        text-align: center;
+        img {
+          height: 11px;
+        }
+      }
+      &:last-child {
+        float: right;
+        img {
+          height: 13px;
+        }
+      }
+    }
+    .notice-group {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      list-style-type: none;
+      .notice-item {
+        padding-left: 10px;
+        height: 35px;
+        line-height: 35px;
+        text-align: left;
+        a {
+          display: block;
+          @include ell();//不换行省略号
+          &,
+          &:active,
+          &:focus {
+            color: $color-bg-text;
+          }
+        }
+    }
+  }
+}

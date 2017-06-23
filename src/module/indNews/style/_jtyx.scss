@@ -1,0 +1,54 @@
+.jtyx {
+	.container {
+		padding-top: 75px;
+
+		#info-list {
+		  	margin-top: 0;
+		}
+
+	}
+
+	.list {
+		display: flex;
+		padding: 10px 10px;
+		height: 83px;
+		border-bottom: 1px solid $color-cutline-1px-cutoff;
+		background-color: $color-bg-nav-text;
+
+		.list-info {
+		  	flex: 1;
+
+		  	.info-title {
+			  	height: 42px;
+			  	line-height: 1.5;
+			  	margin-top: 2px;
+			  	overflow: hidden;
+			  	text-overflow: ellipsis;
+			  	display: -webkit-box;
+			  	-webkit-line-clamp: 2;
+			  	-webkit-box-orient: vertical;
+			  	font-size: $font-size-9;
+			  	color: $color-bg-text;
+			}
+
+			.info-more {
+			  	margin-top: 2px;
+			  	font-size: $font-size-8;
+			  	color: $color-bg-assistant-text;
+			}
+		}
+
+		.list-img {
+		  	width: 102px;
+
+		  	img {
+			  	display: block;
+			  	width: 92px;
+			  	height: 63px;
+			  	margin-left: 10px;
+			}
+		}
+
+
+	}
+}

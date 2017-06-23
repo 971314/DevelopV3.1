@@ -1,0 +1,46 @@
+  .main-func-wrapper {
+      margin-top: 7.5px;
+      border-top: 1px solid $color-cutline-1px-cutoff;
+      border-bottom: 1px solid $color-cutline-1px-cutoff;
+      background-color: $color-bg-nav-text;
+      padding: 10px;
+      text-align: center;
+
+      .first-row {
+        margin-bottom: 5px;
+        .flex-item {
+          &:first-child {
+            padding-right: 3px;
+          }
+
+          &:last-child {
+            padding-left: 3px;
+          }
+        }
+      }
+
+      .second-row {
+        .flex-item {
+          &:first-child {
+            padding-right: 4px;
+          }
+
+          &:nth-child(2) {
+            padding-left: 2px;
+            padding-right: 2px;
+          }
+
+          &:last-child {
+            padding-left: 4px;
+          }
+        }
+      }
+
+      a {
+        display: block;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+  }

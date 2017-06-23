@@ -1,0 +1,85 @@
+.company-select {
+  text-align: left;
+  .company-select-option {
+    padding: 10px 5px;
+    border-bottom: 1px solid #e3e3e3;
+    display: inline-block;
+    color: #000;
+    width: 50%;
+    text-align: center;
+  }
+  .active {
+    color: #00aeef;
+  }
+}
+
+.header-select {
+  background-color: #fff;
+}
+
+.header-select .selection-component {
+  width: 100%;
+  position: relative;
+}
+
+.header-select .selection-component .selection-show {
+  text-align: left;
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  padding: 0 20px 0 10px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.header-select .selection-component .selection-show .arrow-down {
+  position: absolute;
+  right: 18px;
+  top: 11px;
+  display: inline-block;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #9e9696;
+  width: 0;
+  height: 0;
+  margin-top: -1px;
+  margin-left: 6px;
+  margin-right: -14px;
+  vertical-align: middle;
+}
+
+.header-select .selection-component .selection-show .arrow-up {
+  position: absolute;
+  right: 18px;
+  top: 11px;
+  display: inline-block;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 5px solid #9e9696;
+  width: 0;
+  height: 0;
+  margin-top: -1px;
+  margin-left: 6px;
+  margin-right: -14px;
+  vertical-align: middle;
+}
+
+.header-select .row {
+  margin: 0 10px;
+}
+
+.header-select .item {
+  padding: .5rem 0;
+
+  &:after {
+    content: " ";
+  }
+}
+
+.header-select .item:not(:last-child) {
+  margin-right: 1.5rem;
+}

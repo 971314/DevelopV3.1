@@ -1,0 +1,72 @@
+{
+	"coAdvert": {
+		"imgSet" : {
+			"height": "179px"
+		},
+		"advDelay": 3000,
+		"defaultImage": "images/hm_bg01.png"
+	},
+	"coCommitFuc": {
+		"addURL": "pobo:uncheck=1&pageId=900005&url=main/view/index-add.html",
+		"addImage": "images/common-func-1.png",
+		"addTitle": "添加",
+		"addID": "add"
+	},
+	"coMainFunc": {
+		"rowInfo": {
+          	"firstRow": [
+		        {
+		            "href": "pobo:goback=0&uncheck=1&pageId=900005&url=consult/index.html#/institution",
+		            "image": "images/main-func-first-1.png"
+		        },
+		        {
+		            "href": "pobo:goback=0&uncheck=1&pageId=900005&url=mrkHot/index.html",
+		            "image": "images/main-func-first-2.png"
+		        }
+	        ],
+	        "secondRow": [
+		        {
+		            "href": "pobo:uncheck=1&pageId=900014&url=zxjtInfo/index.html#/novece",
+		            "image": "images/main-func-second-1.png"
+		        },
+		        {
+		            "href": "pobo:uncheck=1&pageId=900014&url=https://test.yunyesoft.com/fund/index.html#/home",
+		            "image": "images/main-func-second-2.png"
+		        },
+		        {
+		            "href": "pobo:uncheck=1&pageId=900005&url=consult/index.html#/meeting",
+		            "image": "images/main-func-second-3.png"
+		        }
+	        ]
+    	}
+	},
+	"coNavBarSpe": {
+		"searchImage": "images/search.png",
+		"searchBoxImage": "images/search-box.png",
+		"speakImage": "images/speak.png",
+		"serviceImage": "../images/service.png",
+		"serviceHref": "pobo:uncheck=0&pageId=900004&title=客服中心&url=community/index.html",
+		"NavBarHref": "pobo:uncheck=1&pageId=800013"
+	},
+	"coNewsListSpe": {
+		"newsTabs": [
+			{
+				"name": "财经新闻",
+			    "par": "PBCJXW"
+			},
+			{
+				"name": "热点解读",
+			    "par": "PBSYRDJD"
+			},
+			{
+				"name": "市场公告",
+			    "par": "PBSCGG"
+			}
+		]
+	},
+	"coNoticeAdv": {
+		"arrowRight": "../images/arrow-right.png",
+        "noticeDelay": 3000,
+        "noticeImage": "images/notice.png"
+	}
+}

@@ -1,0 +1,29 @@
+.tabs {
+  display: flex;
+  height: 35px;
+  background: #fff;
+}
+.tabs .tab {
+  flex: 1;
+  text-align: center;
+}
+.tabs .tab .title {
+  display: inline-block;
+  position: relative;
+  height: 35px;
+  line-height: 35px;
+  font-size: 15px;
+  color: #1a1a1a;
+}
+.tabs .tab.active .title {
+  color: #fe0000;
+}
+.tabs .tab.active .title:after {
+  content: "";
+  position: absolute;
+  left: -10%;
+  bottom: 0;
+  width: 120%;
+  height: 2px;
+  background: #fe0000;
+}

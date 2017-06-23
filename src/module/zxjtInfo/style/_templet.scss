@@ -1,0 +1,17 @@
+div {
+	&.width95 {
+		width: 93%;
+    	margin: 0 auto;
+    	margin-top: 15px;
+	}
+}
+
+.list {
+	img {
+		width:100%;
+	}
+}
+
+.block {
+	display:block;
+}

@@ -1,0 +1,75 @@
+  	.navbar-spec {
+		.navbar {
+			color: $color-text-nav-text;
+		}
+
+		.navbar-header,
+		.navbar-footer {
+			-webkit-box-flex: .4;
+			-ms-flex: .4;
+			flex: .4;
+		}
+
+		.navbar-header {
+			padding-right: 0;
+		}
+
+		.navbar-body {
+			position: relative;
+			padding: 0;
+			-webkit-box-flex: 1.2;
+			-ms-flex: 1.2;
+			flex: 1.2;
+
+			div {
+				margin-top: 10px;
+				margin-bottom: 10px;
+				height: 23px;
+				line-height: 21px;
+			}
+
+			.search {
+				margin-left: 10px;
+				margin-right: -25px;
+				height: 13px;
+			}
+
+			.search-box {
+				height: 23px;
+			}
+
+			.speak {
+				margin-left: -21px;
+				margin-right: 10px;
+				height: 13px;	
+			}
+		}
+
+		.navbar-footer {
+			padding-left: 0;
+
+			a {
+				display: block;
+				float: right;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				height: 23px;
+				line-height: 21px;
+			}
+
+			.service {
+				margin-right: 15px;
+
+				img {
+					height: 18px;
+				}
+			}
+
+			.message-icon {
+				span {
+					top: -7px;
+					left: -6px;
+				}
+			}
+		}
+	}

@@ -1,0 +1,30 @@
+  .rslt {
+    .header {
+        margin: 57px auto 42px;
+        font-size: $font-size-3;
+        line-height: 17px;
+        color: $color-text-text;
+        text-align: center;
+    }
+    .type {
+        position: relative;
+        margin: 0 auto 10px;
+        width: 39%;
+        text-align: center;
+        img {
+          max-width: 100%;
+      }
+    }
+    .level {
+        font-size: $font-size-9;
+        color: $color-bg-assistant-text;
+        text-align: center;
+    }
+    .btn-fourthly {
+        margin: 53px auto 0;
+        border: 1px solid $color-bg-up;  
+        border-radius: 20px;
+        width: 160px;
+        color: $color-text-report-up-number;
+    }
+  }

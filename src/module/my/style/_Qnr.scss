@@ -1,0 +1,82 @@
+  .qnr {
+    label {
+      &.icon {
+        display: block;
+          font-size: $font-size-9;
+          font-weight: normal;
+          color: $color-text-news-text;
+          line-height: 14px;
+          cursor: pointer;
+      }
+    }
+    .icon {
+      input[type="radio"],input[type="checkbox"] {
+        position: absolute;
+        visibility: hidden;
+      }
+      &:after {
+          clear: both;
+          display: table;
+          content: " ";
+      }
+    }
+    .icon-radio {
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 14px;
+        height: 14px;
+        background-image: url(../my/images/radio1.png);
+        background-size: contain;
+        vertical-align: middle;
+    }
+    .selected {
+      .icon-radio {
+          background-image: url(../my/images/radio2.png);
+      }
+    }
+    .qnr-group {
+        margin: 7px 0;
+        border-top: 1px solid $color-cutline-1px-cutoff;
+        border-bottom: 1px solid $color-cutline-1px-cutoff;
+        padding: 15px 12px;
+        background-color: $color-bg-nav-text;
+        p {
+          margin-bottom: 17px;
+          font-size: $font-size-7;
+      }
+      .icon {
+        + .icon {
+          margin-top: 17px;
+        }
+        &:after {
+            clear: both;
+            display: table;
+        }
+        .icon-radio {
+            float: left;
+        }
+        span {
+            float: left;
+            width: calc(100% - 25px);
+        }
+      }
+    }
+    .footer {
+        padding: 45px 15px;
+        .btn-thirdly {
+          border: none;
+          border-radius: 5px;
+          padding: 0;
+          height: 38px;
+          font-size: $font-size-7;
+          line-height:38px;
+          color: $color-text-nav-text;
+          background-color: $color-bg-up;
+          &:disabled {
+            background-color: $color-btn-disabled;
+            opacity: 1;
+        }
+      }
+    }
+  }

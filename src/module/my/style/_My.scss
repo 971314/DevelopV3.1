@@ -1,0 +1,22 @@
+  body {
+    background-color: $color-bg-grounding;
+  }
+  .my-index {
+    a {
+      text-decoration:none;
+    }
+    .myFunctional {
+      margin-bottom: 7.5px;
+      border-bottom: 1px solid $color-cutline-1px-cutoff;
+    }
+    .groupp{
+      border-top: 1px solid $color-cutline-1px-cutoff;
+      border-bottom: 1px solid $color-cutline-1px-cutoff;
+    }
+    .jianGe{
+      height: 9.5px;
+      width:100%;
+      border-top: 1px solid $color-cutline-1px-cutoff;
+      border-bottom: 1px solid $color-cutline-1px-cutoff;
+    }
+  }

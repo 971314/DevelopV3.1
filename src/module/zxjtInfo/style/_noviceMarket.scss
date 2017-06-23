@@ -1,0 +1,56 @@
+html, body {
+	font-family:Helvetica,"Microsoft YaHei",Arial,sans-serif;
+	background:$color-bg-nav-text;
+	margin:0;
+}
+
+
+.novice {
+
+	.noviceHeadUrl {
+		display: inline-block;
+	    width:100%;
+
+	    img{
+
+		    width:100%;
+		}
+	}
+
+	.noviceFunctional {
+
+		&:nth-child(1),
+		&:nth-child(2),
+		&:nth-child(3) {
+			margin-right:2%;
+		}
+
+	}
+
+	.noviceTitle {
+
+		margin: 1rem 0 0.4rem 0;
+    	font-size: $font-size-7;
+	}
+
+	#functional{
+	    width:90%;
+	    margin:0 auto;
+	    margin-top: 0.8rem;
+	}
+
+	.mr036 {
+
+		&:nth-child(2){
+
+		    margin-right:0.36rem;
+		}
+	}
+
+	.aWidth{
+		
+	    width:49%;
+	}
+
+
+}

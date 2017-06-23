@@ -1,0 +1,43 @@
+.collection-nav {
+  nav {
+    position:fixed;
+    top:0;
+    background: $color-bg-up;
+    width:100%;
+    height:4rem;
+    line-height:4rem;
+    color:$color-text-nav-text;
+    z-index:999;
+
+    a {
+      display:inline-block;
+      padding-left: 1rem;
+      width: 11%;
+      vertical-align: top;
+
+      img{
+        width: 17px;
+      }
+    }
+  }
+
+  .tipp,
+  .right {
+    display: inline-block;
+  }
+
+  .tipp {
+    font-size: $font-size-14;
+    width: 70%;
+    text-align: center;
+  }
+
+  .right {
+    font-size: $font-size-19;
+  }
+
+  .placeholder{
+    visibility:hidden;
+  }
+
+}

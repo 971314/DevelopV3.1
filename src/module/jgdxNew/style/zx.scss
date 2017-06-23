@@ -1,0 +1,184 @@
+.btn-group {
+  display: flex;
+}
+.btn-group button {
+  flex: 1;
+  height: 25px;
+  font-size: 14px;
+  color: #1a1a1a;
+  background: #fff;
+  border: 1px #c0c6cd;
+  border-style: solid solid solid none;
+}
+.btn-group button:first-child {
+  border-left-style: solid;
+  border-radius: 2px 0 0 2px;
+}
+.btn-group button:last-child {
+  border-radius: 0 2px 2px 0;
+}
+.btn-group button.active {
+  background: #f7f7fa;
+  color: #fe0000;
+}
+.btn-tabs {
+  display: flex;
+}
+.btn-tabs .tabs {
+  position: relative;
+  flex: 1;
+  background: #fff;
+}
+.btn-tabs .tabs:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 1px;
+  height: 15px;
+  background: #e4e7f0;
+}
+.btn-tabs .tabs:last-child:after {
+  content: none;
+}
+.btn-tabs .tabs.active button {
+  color: #fe0000;
+  border-bottom: 2px solid #fe0000;
+}
+.btn-tabs .tabs button {
+  height: 35px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #1a1a1a;
+}
+.btn-tabs.tab-color .tabs:after {
+  content: none;
+}
+.btn-tabs.tab-color .tabs.active button {
+  color: #fe0000;
+}
+.btn-tabs.tab-color .tabs button {
+  color: #808086;
+}
+.btn-tabs.tab-no-divide .tabs:after {
+  content: none;
+}
+.table .tr {
+  display: flex;
+  height: 35px;
+  padding: 5px 0;
+  border-bottom: 1px solid #e4e7f0;
+}
+.table .tr:last-child {
+  border: none;
+}
+.table .tr .td,
+.table .tr .th {
+  flex: 2;
+  line-height: 28px;
+}
+.table .tr .td.td1,
+.table .tr .th.td1,
+.table .tr .td.th1,
+.table .tr .th.th1 {
+  flex: 1;
+}
+.table .tr .td.text-center,
+.table .tr .th {
+  text-align: center;
+}
+.table .tr .th.text-right {
+  text-align: right;
+}
+.select {
+  position: relative;
+}
+.select.active .select-options {
+  display: block;
+}
+.select.active:after {
+  transform: rotate(180deg);
+}
+.select:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  background: url(../images/b-下拉选择.png) no-repeat center;
+  background-size: 7px 4px;
+  transform: rotate(0);
+  transition: transform .5s;
+}
+.select .select-value {
+  width: 100%;
+  padding-left: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 25px;
+  line-height: 25px;
+  padding-right: 25px;
+  border-radius: 2px;
+  border: 1px solid #c0c6cd;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+.select .select-options {
+  display: none;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  max-height: 150px;
+  overflow: auto;
+  background: #fff;
+  border: 1px #c0c6cd;
+  border-style: none solid solid solid;
+  border-radius: 2px;
+}
+.select .select-options .option {
+  width: 100%;
+  height: 30px;
+  padding-left: 5px;
+  line-height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: #1a1a1a;
+  border-top: 1px solid #c0c6cd;
+}
+.select .select-options .option.active {
+  color: #fe0000;
+  background: #f0f0f0;
+}
+.select-group {
+  display: flex;
+}
+.select-group .select {
+  flex: 1;
+  margin-right: 10px;
+}
+.select-group .select:last-child {
+  margin-right: 0;
+}
+.computed-result {
+  height: 150px;
+  background: #f7f7fa url(../images/椭圆-3-拷贝@2x.png) no-repeat center;
+  background-size: 128px 128px;
+}
+.computed-result .result {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  color: #fe0000;
+}
+.computed-result .text {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #808086;
+}

@@ -1,0 +1,24 @@
+.message-presents {
+  border-top: 1px solid #c3d9e0;
+  text-align: center;
+  margin-top: 5px;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+  .message-list {
+    display: flex;
+    border-bottom: 1px solid #c3d9e0;
+
+    span {
+      padding: 2px;
+    }
+    .message-list-title {
+      background-color: #ececec;
+      flex: 1;
+    }
+    .message-list-coulmn {
+      flex: 2;
+    }
+  }
+}

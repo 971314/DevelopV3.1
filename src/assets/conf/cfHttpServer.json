@@ -1,0 +1,25 @@
+{
+  "myapply": {
+    "url": "http://61.172.197.204:8890/PB_apply/WebService"
+  },
+  "bsapply": {
+    "url": "http://61.172.197.204:8890/PB_apply/PB_business_support/1_0"
+  },
+  "newsbase": {
+    "listurl": "http://static.yunyesoft.com/consult/newsBase/api",
+    "searchpageurl": "http://static.yunyesoft.com/consult/newsBase/searchPage",
+    "imgurl": "http://static.yunyesoft.com/static/img/",
+    "shortimgurl": "http://static.yunyesoft.com/consult/newsBase/shortImg/"
+  },
+  "risk": {
+    "listurl": "http://static.yunyesoft.com/consult/newsBase/api",
+    "imgurl": "http://static.yunyesoft.com/static/img/",
+    "shortimgurl": "http://static.yunyesoft.com/consult/newsBase/shortImg/"
+  },
+  "collect": {
+    "url": "http://61.172.197.204:8890/PBUserCollectWS/webservice"
+  },
+  "reg": {
+    "chgpwdurl": "http://192.168.6.49:8080/pobocertification_WebService/changePwd"
+  }
+}

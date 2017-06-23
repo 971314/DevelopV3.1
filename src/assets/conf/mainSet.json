@@ -1,0 +1,22 @@
+{
+  "infoAll": [
+      {
+        "coType": "nav-bar-spe"
+      },
+      {
+        "coType": "advert"
+      },
+      {
+        "coType": "notice-adv"
+      },
+      {
+        "coType": "main-func"
+      },
+      {
+        "coType": "commit-fuc"
+      },
+      {
+        "coType": "news-list-spe"
+      }
+  ]
+}
